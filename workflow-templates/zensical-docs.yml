@@ -1,0 +1,19 @@
+# Strict docs build (broken links fail the job) for Zensical sites.
+name: docs
+
+on:
+  push:
+    branches: [$default-branch]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.3
+      - run: uvx zensical@0.0.67 build --strict

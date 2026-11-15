@@ -1,0 +1,6 @@
+{
+  "name": "Trashures docs build (Zensical)",
+  "description": "Strict Zensical build, job name `checks` to match the main ruleset.",
+  "categories": ["Markdown"],
+  "filePatterns": ["mkdocs.yml$"]
+}

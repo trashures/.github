@@ -1,0 +1,7 @@
+{
+  "name": "Trashures Python CI (uv)",
+  "description": "Unit tests with uv and pytest, job name `checks` to match the main ruleset.",
+  "iconName": "python",
+  "categories": ["Python"],
+  "filePatterns": ["pyproject.toml$", "uv.lock$"]
+}

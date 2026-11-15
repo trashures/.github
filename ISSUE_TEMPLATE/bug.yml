@@ -1,0 +1,35 @@
+name: "🐛 Bug"
+description: Something does not work as expected
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open ...
+        2. Scan ...
+        3. See ...
+  - type: input
+    id: postal_code
+    attributes:
+      label: Postal code (if relevant)
+      placeholder: "79098"
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Device, OS, browser or app version, scan id if you have one.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Please remove personal data first.

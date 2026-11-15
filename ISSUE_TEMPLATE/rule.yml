@@ -1,0 +1,41 @@
+name: "🗑️ Wrong or missing rule"
+description: An item lands in the wrong bin, or a rule for a location is missing
+title: "data: "
+labels: ["area:data"]
+body:
+  - type: input
+    id: item
+    attributes:
+      label: Item
+      placeholder: Bananenschale
+    validations:
+      required: true
+  - type: input
+    id: postal_code
+    attributes:
+      label: Postal code
+      placeholder: "79183"
+    validations:
+      required: true
+  - type: input
+    id: answer
+    attributes:
+      label: What Trashures answered
+      placeholder: Biotonne
+  - type: input
+    id: expected
+    attributes:
+      label: Correct bin
+      placeholder: Restmüll
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source
+      description: Link to the waste authority's page or A-Z list that states the rule.
+      placeholder: https://...
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

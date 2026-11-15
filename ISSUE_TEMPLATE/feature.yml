@@ -1,0 +1,28 @@
+name: "💡 Feature"
+description: Propose a new feature
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Concise description of the feature.
+      placeholder: |
+        As <user> I want <feature> so that <purpose>.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance_criteria
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - [ ] ...
+        - [ ] Documentation
+  - type: textarea
+    id: tasks
+    attributes:
+      label: Tasks
+      description: Tasks or prerequisites.
+      placeholder: |
+        - [ ] ...
