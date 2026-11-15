@@ -15,3 +15,6 @@ with its own `.github/ISSUE_TEMPLATE/` folder ignores every template from this r
 
 Keep this repo free of secrets and internal details: it is public so that the defaults apply.
 Internal documentation lives in [trashures/handbook](https://github.com/trashures/handbook).
+
+The templates and texts in this repo are [MIT](LICENSE) licensed. A licence here does not apply to
+other repos: each repo carries its own `LICENSE` (code in trashures/trashures is AGPL-3.0-or-later).
